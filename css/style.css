@@ -1,14 +1,14 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
 	box-sizing: border-box;
 }
 
 body{
-	font-size: 20px;
+	font-size: 1.3rem;
 	overflow-x: hidden;
 	color: white;
-	font-family: 'Flamenco', cursive;
+	font-family:'Oswald', sans-serif;
+	
 }
 
 header{
@@ -23,35 +23,37 @@ header{
 	content: ".";
 	visibility: hidden;
 	display: block;
-	height: 0px;
+	height: 0;
 	clear: both;
 }
 
 .row{
-	max-width: 1180px;
+	max-width: 100%;
 	margin: 0 auto;
+	
 }
 
 .logo{
-	height: 120px;
+	height: 7.5rem;
 	width: auto;
 	float: left;
-	margin-top: 20px;
+	margin-top: 1.25rem;
 }
 
 .main-nav{
 	float: right;
-	margin-top: 60px;
+	margin: auto auto;
 }
 
 .main-nav li{
 	display: inline-block;
 	list-style: none;
-	margin-left: 40px;
+	margin-left: 2.5rem;
+	margin-right:1.5rem;
 }
 
 .main-nav li a{
-	padding: 5px 0;
+	padding: 0.5rem 1rem;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -61,6 +63,7 @@ header{
 
 .main-nav li a:hover{
 	border-bottom: 2px solid #bf55ec;
+	color:orange;
 }
 
 
